@@ -1,0 +1,82 @@
+.anime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height:600px ;
+    width: 100vw;
+    margin-bottom: 400px;
+}
+
+.SeriesPamplet{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.SeriesPamplet-title{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SeriesPamplet-title > p{
+    margin-bottom: 30px;
+}
+
+
+#DBZ{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../posters/DBZ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#NA{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url(../posters/Naruto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#DS{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url(../posters/DeamonSlayer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#OP{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url(../posters/OP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#BL{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url(../posters/bleach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#YN{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url(../posters/YourName.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#SV{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url(../posters/A_Silent_Voice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#movies{
+    margin-bottom: 20px ;
+}

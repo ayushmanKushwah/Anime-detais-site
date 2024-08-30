@@ -1,0 +1,16 @@
+
+#navBar{
+    background-color: #242323;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin: 10px 0px 0px 20px;
+  font-size: 20px;
+}  

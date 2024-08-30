@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #363636;
+}
+
+#websiteTitle{
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin: 40px 0px 30px 180px;
+}
+
+#SetiesTitle{
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 15px;
+  margin: 50px 0 50px 0;
+}
+#MoviesTitle{
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 15px;
+  margin-top: 50px ;
+}
+

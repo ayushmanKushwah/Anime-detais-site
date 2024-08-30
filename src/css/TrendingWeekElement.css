@@ -1,0 +1,69 @@
+#TrendingWeekElement-cover{
+    height: 500%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 20px 20px;
+}
+
+#TrendingWeekElement{
+    height: 400px;
+    width: 800px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)),url(../posters/DS-landscape.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#TrendingWeekElement-desc-and-play{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center
+
+}
+
+#TrendingWeekElement-desc{
+    height: 100%;
+    width: 100%;
+}
+
+#TrendingWeekElement-desc-title{
+    height: 40%;
+    width: 100%;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 20px;
+}
+
+#TrendingWeekElement-desc-text{
+    height: 60%;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    color: #aea7a3;
+}
+
+#TrendingWeekElement-play{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: self-end;
+    flex-direction: column-reverse;
+}
+
+#TrendingWeekElement-play-button{
+    background-color: transparent;
+    margin: 0px 15px 15px 0;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 10px 0;
+}
